@@ -148,12 +148,14 @@ img { max-width: 100%; display: block; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.1rem;
+  width: 2.5rem;
   height: 2.1rem;
+  padding-inline: 0.2rem;
   border-radius: 8px;
   background: var(--navy-900);
   color: var(--accent-light);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: -0.02em;
   font-weight: 800;
 }
 
@@ -596,8 +598,8 @@ img { max-width: 100%; display: block; }
 @media (min-width: 640px) {
   .trust-grid { grid-template-columns: repeat(2, 1fr); }
 }
-@media (min-width: 1024px) {
-  .trust-grid { grid-template-columns: repeat(4, 1fr); }
+@media (min-width: 860px) {
+  .trust-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 .trust-card {
